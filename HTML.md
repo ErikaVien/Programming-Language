@@ -1,21 +1,22 @@
+# HTML
 纯文本可以编html</br>
 .txt -> .html
 
-代码编辑器 source-code editor</br>
+**代码编辑器 source-code editor**</br>
 -Sublime, visual studio code, Webstorm
 
 <> </> opening and closing</br>
-单标签 = img, br, hr
-双标签 = div, h1-h6, span, p, a
+**单标签** = img, br, hr
+**双标签** = div, h1-h6, span, p, a
 
-容器级 = div, ul,li,ol, h1-h6, dl,dt,dd</br>
-文本级 = span,img, b, u, i</br>
+**容器级** = div, ul,li,ol, h1-h6, dl,dt,dd</br>
+**文本级** = span,img, b, u, i</br>
 
-标签之前嵌套关系：ol,ul,li,
+**标签之前嵌套关系**：ol,ul,li,
 
-根据标签的种类决定：块级，内行级
+**根据标签的种类决定**：块级，内行级
 
-文本空白折叠现象 ：</br>
+**文本空白折叠现象** ：</br>
 -文本空白折叠会显示成一个空格
 -如要空格，用特定标签 = \&nbsp; 
 
@@ -33,5 +34,20 @@ anchor : after href must add #
 \<a name="jbxx"></a>
 \<h3 id="jbxx">基本信息</h3>
 
+### Different betwen div and span
 
+\<div>\
+div = division or section 跨度布局分割
+HTML+CSS, div+CSS
+容器级，双标级
+\</div>
+
+\<span>\
+span = generic inline container for phrasing content 文字分割
+
+\<div>
+  </br>
+	Today is <\span style="color:red;">Sunday<\/span>
+ </br>
+\</div>
 
