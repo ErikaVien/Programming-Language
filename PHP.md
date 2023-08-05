@@ -41,35 +41,28 @@ $A != $a
 \-static</br>
 \-parameter</br>
 
-PHP variable(变量)
-
+**PHP variable(变量):**
 1. echo  
-
 2. print  
-
 3. print_r  
-
 4. var_dump = dump information about a variable
 
 **var_dump is use for debug**
 
 **Example:**  
-<?php  
+<\?php  
 name="mashibing";  
 a=array("Toyota","BMW","Tesla");  
-echo a；   **//array  
-**
-echo "\";  
-print (a);   **//array  
-**echo "</br>";  
-print_r(a);   **//array([0]=>Toyota[1]=>BMW[2]=>Tesla)  
-**
-echo "\";  
-var_dump(a);   **//array(3){[0]=>string)(6)"Toyota"[1]=>string(3)"BMW"[2]=>string(5)"Tesla"}  
-**var_dump($name);   **//string(9)"mashibing"**
+echo a；   **//array**</br>
+echo "\</br>"; </br>
+print (a);   **//array**</br>
+echo "\</br>";  </br>
+print_r(a);   **//array([0]=>Toyota[1]=>BMW[2]=>Tesla)**
+echo "\</br>"; </br>
+var_dump(a);   **//array(3){[0]=>string)(6)"Toyota"[1]=>string(3)"BMW"[2]=>string(5)"Tesla"}** </br>
+var_dump($name);   **//string(9)"mashibing"**
 
-PHP data types comparision 数据类型比较
-
+**PHP data types comparision 数据类型比较:**
 1. String 字符串 -> characters
 2. Integer 整型 -> whole numbers positive and negative
 3. Float 浮点型 -> decimal value
@@ -88,7 +81,7 @@ x=047; 八进制数
 **echo 显示**  
 **return 放回但不显示**
 
-PHP constant 常量
+**PHP constant 常量:**
 
 盒子里数据固定的
 
@@ -98,8 +91,8 @@ define(string,value,bool$case_insensitive)
 header(content-type:text.html;charset=utf-8);
 
 **Example:**  
-<?php  
+\<?php  
 define("GREETING","欢迎"，true);  
 echo GREETING;  
-echo "</br>";  
+echo "\</br>";  
 echo greeting;
